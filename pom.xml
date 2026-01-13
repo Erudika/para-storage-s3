@@ -4,7 +4,7 @@
 
 	<groupId>com.erudika</groupId>
 	<artifactId>para-storage-s3</artifactId>
-	<version>1.51.6-SNAPSHOT</version>
+	<version>1.52.0</version>
 
 	<packaging>jar</packaging>
 	<name>Para Amazon S3 Storage</name>
@@ -40,7 +40,7 @@
 		<connection>scm:git:https://github.com/erudika/para-storage-s3.git</connection>
 		<developerConnection>scm:git:https://github.com/erudika/para-storage-s3.git</developerConnection>
 		<url>https://github.com/erudika/para-storage-s3</url>
-		<tag>HEAD</tag>
+		<tag>1.52.0</tag>
 	</scm>
 
 	<issueManagement>
