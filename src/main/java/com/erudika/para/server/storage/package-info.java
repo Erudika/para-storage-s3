@@ -16,17 +16,6 @@
  * For issues and patches go to: https://github.com/erudika
  */
 /**
- * AWSFileStore.
+ * Storage package.
  */
-module com.erudika.para.server.storage.s3fs {
-	requires com.erudika.para.core;
-	requires org.apache.commons.lang3;
-	requires com.fasterxml.jackson.databind;
-	requires org.slf4j;
-	requires software.amazon.awssdk.auth;
-	requires software.amazon.awssdk.core;
-	requires software.amazon.awssdk.regions;
-	requires software.amazon.awssdk.services.sts;
-	requires software.amazon.awssdk.services.s3;
-	provides com.erudika.para.core.storage.FileStore with com.erudika.para.server.storage.AWSFileStore;
-}
+package com.erudika.para.server.storage;
