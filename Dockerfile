@@ -1,4 +1,4 @@
-FROM alpine
+FROM scratch
 
 ENV PARA_PLUGIN_ID="para-storage-s3" \
 	PARA_PLUGIN_VER="1.52.2"
